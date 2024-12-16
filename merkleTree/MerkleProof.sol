@@ -6,12 +6,7 @@ proof:["0xdfbe3e504ac4e35541bebad4d0e7574668e16fefa26cd4172f93e18b59ce9486","0x9
 leaf:"0x04a10bfd00977f54cc3450c9b25c9b3a502a089eba0097ba35fc33c4ea5fcb54"
 root:"0xeeefd63003e0e712cb41cd0043015a6e26ddb38073cc6ffeb0ba3e808ba8c097"
  */
-contract MerkleProof{
-
-
-    constructor(){
-
-    }
+library MerkleProof{
 
 
     function verify(
